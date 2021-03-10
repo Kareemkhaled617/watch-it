@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#222831;
+    width:100%;
+}
+
+.navbar{
+    background-color:#30475e;
+    clip-path: polygon(0 0, 100% 0%, 100% 67%, 0% 100%);
+    position: sticky;
+    top:0;
+    color:#dddddd;
+    display:flex;
+    justify-content:space-between;
+    height: 100px;
+}
+
+.navbar>ul{
+    margin-top: 5px;
+    display:flex;
+    list-style-type:none;
+   padding:15px;
+    
+}
+span{
+padding: 15px;
+padding-left: 20px;
+font-size:30px;
+font-weight:bolder;
+
+}
+
+.navbar>ul>li{
+    padding-left: 15px;
+}
+.navbar>ul>li>a{
+    background-color:#4e8d7c;
+    color:#dddddd;
+    border: #00587a solid 2px ;
+    border-radius: 5px;
+    text-decoration:none;
+    padding:8px;
+}
+.navbar>ul>li>a:hover{
+    background-color:black;
+}
+header{
+    margin:0 auto;
+    margin-top:10px;
+    background-image: url("https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center;
+    border-radius: 10px;
+    height: 70vh;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+header .head{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;    
+}
+.head h1{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:80px;
+
+}
+.head p{
+    font-family: 'Yusei Magic', sans-serif;
+    font-size:20px;
+    font-style: italic;
+    color:#fcfcfc;
+    background-color:rgb(33,33,33.0.8);
+}
+.head a{
+    text-decoration:none;
+    border:none;
+    background-color:#045762;
+    padding: 10px;
+    color: #65d6ce;
+    border-radius: 10px;
+    font-size: 20px;
+} 
+.head a:hover{
+    background-color:black;
+}
+
+.content{
+display: flex; 
+padding-left: 100px;
+
+
+}
+.content .h{
+    text-align: center;
+    border: 1px solid red;
+    width: 100%;
+
+}
+.items{
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+}
+.content img{
+    
+    width:90px;
+    border-radius: 50%;
+    padding: 10px;
+     
+}
+.content p{
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    padding: 5px;
+
+}
+.who{
+    width: 99%;
+    justify-content: center;
+   
+    margin-top:30px;
+    display: flex;
+    padding: 10px;
+}
+.our{
+    
+    margin-left:20px;
+    background-color:#c3bef0;
+    border-radius: 20px;
+    flex:1;   
+    
+}
+.who img{
+    flex:1;
+    border-radius: 5%;
+}
+.our h1{
+    
+    width: 100%;
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-transform:initial;
+    color:#212121 ;
+    padding:5px;
+}
+.our p{
+    margin-left: 10px;
+    color:white;
+    font-family: 'Yeon Sung', cursive;
+    padding-left: 10px;
+}
+.our ul{
+    list-style-type: none;
+}
+.our ul li{
+    color: #355c7d;
+    font-size: 20px;
+}
+.our ul li:hover{
+    background-color:#323232;
+}
+.our ul li a{
+    color: #355c7d;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.our span{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+.text{
+    border:3px solid red;
+    color:#303841;
+    font-size: 28px;
+    font-family: 'Bree Serif', serif;
+    padding:25px;
+    margin: 10px auto;
+    text-align:center;
+    background-color:#1fab89;
+    width:50%;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+
+}
+.ourclient{
+    
+    display:flex;
+    width:80%;
+    margin-left: 160px;
+    justify-content:center;
+    
+    
+}
+.ourclient img{
+   
+    width:150px;
+    border-radius:5%;
+    margin:40px;
+}
+figure{
+    
+    padding-right: 60px;;
+}
+figcaption{
+    color:white;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 80px;
+}
+figure:hover{
+    border:#1fab89 3px solid;
+    border-radius:20%;
+}
+
+footer{
+    color:#c9d6df;
+    
+    font-family: 'Sofia', cursive;
+    background-color: #1e2022;
+    width: 100%;
+    text-align: center;
+    padding:20px;
+    margin-top: 10px;
+  
+}
